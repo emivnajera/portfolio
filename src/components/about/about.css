@@ -9,7 +9,7 @@
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
-        45 deg,
+        45deg,
         transparent,
         var(--color-primary),
         transparent
@@ -21,7 +21,7 @@
 .about_me-image{
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10 deg);
+    transform: rotate(10deg);
     transition: var(--transition);
 }
 
@@ -29,13 +29,13 @@
     transform: rotate(0);
 }
 
-.about_cards {
+.about_cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1.5 rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
-.about_card {
+.about_card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -57,7 +57,7 @@
 }
 
 .about_card h5{
-    font-size: 0.95 rem;
+    font-size: 0.95rem;
 }
 
 .about_card small{
@@ -65,7 +65,7 @@
     color: var(--color-light)
 }
 
-.about_content p {
-    margin: 2rem 0 2.6 rem;
+.about_content p{
+    margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }

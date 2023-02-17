@@ -12,37 +12,36 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className='container about_container'>
-        <div className='about_me'>
+        <div className="about_me">
           <div className="about_me-image">
-            <img src={ME} alt='About Image'></img>
+            <img src={ME} alt=""/>
           </div>
+        </div>
 
-          <div className="about_content">
-            <div className="about_cards">
-              <article className='about_card'>
-                <FaGraduationCap className='about_icon'/>
-                <h5>Engineering Student</h5>
-                <small>Last Year of College</small>
-              </article>
+        <div className="about_content">
+          <div className="about_cards">
+            <article className='about_card'>
+              <FaGraduationCap/>
+              <h5>Engineering Student</h5>
+              <small>Last year of college</small>
+            </article>
 
-              <article className='about_card'>
-                <BsFillLightbulbFill className='about_icon'/>
-                <h5>Smart</h5>
-                <small>Problem Solving Skills</small>
-              </article>
+            <article className='about_card'>
+              <BsFillLightbulbFill/>
+              <h5>Smart</h5>
+              <small>Problem Solving Skills</small>
+            </article>
 
-              <article className='about_card'>
-                <BsCodeSlash className='about_icon'/>
-                <h5>Programming Skills</h5>
-                <small>Knowledge in Several Languages</small>
-              </article>
-
-              <p>Resumen Personal Aqui</p>
-
-              <a href='#contact' className='btn btn-primary'>Let's Talk</a>
-            </div>
+            <article className='about_card'>
+              <BsCodeSlash/>
+              <h5>Programming Skills</h5>
+              <small>Knowledge in several lenguages</small>
+            </article>
           </div>
-
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quis natus, ipsa nisi magnam iste delectus, 
+              eos alias magni, rem possimus beatae porro quibusdam culpa exercitationem tempora maiores? Repudiandae, 
+              fugiat!</p>
+          <a href='#contact' className='btn btn-primary'>Let's Talk!</a>
         </div>
       </div>
     </section>
